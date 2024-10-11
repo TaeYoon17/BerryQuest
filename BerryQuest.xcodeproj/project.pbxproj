@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		633FDB252CB9703400DC5652 /* Realease_API_Keys.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 633FDB242CB9703400DC5652 /* Realease_API_Keys.xcconfig */; };
+		633FDB272CB9707F00DC5652 /* Test_API_Keys.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 633FDB262CB9707F00DC5652 /* Test_API_Keys.xcconfig */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		633FDAF92CB96B2A00DC5652 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		633FDAE82CB96B2900DC5652 /* BerryQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BerryQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		633FDAF82CB96B2A00DC5652 /* BerryQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BerryQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		633FDB022CB96B2A00DC5652 /* BerryQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BerryQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		633FDB242CB9703400DC5652 /* Realease_API_Keys.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Realease_API_Keys.xcconfig; sourceTree = "<group>"; };
+		633FDB262CB9707F00DC5652 /* Test_API_Keys.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Test_API_Keys.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		633FDADF2CB96B2900DC5652 = {
 			isa = PBXGroup;
 			children = (
+				633FDB262CB9707F00DC5652 /* Test_API_Keys.xcconfig */,
+				633FDB242CB9703400DC5652 /* Realease_API_Keys.xcconfig */,
 				633FDAEA2CB96B2900DC5652 /* BerryQuest */,
 				633FDAFB2CB96B2A00DC5652 /* BerryQuestTests */,
 				633FDB052CB96B2A00DC5652 /* BerryQuestUITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633FDB252CB9703400DC5652 /* Realease_API_Keys.xcconfig in Resources */,
+				633FDB272CB9707F00DC5652 /* Test_API_Keys.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +401,7 @@
 		};
 		633FDB0D2CB96B2A00DC5652 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633FDB262CB9707F00DC5652 /* Test_API_Keys.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,6 +431,7 @@
 		};
 		633FDB0E2CB96B2A00DC5652 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633FDB242CB9703400DC5652 /* Realease_API_Keys.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +461,7 @@
 		};
 		633FDB102CB96B2A00DC5652 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633FDB262CB9707F00DC5652 /* Test_API_Keys.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +481,7 @@
 		};
 		633FDB112CB96B2A00DC5652 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633FDB242CB9703400DC5652 /* Realease_API_Keys.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
